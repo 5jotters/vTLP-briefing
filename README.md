@@ -14,13 +14,19 @@ The Red force threats includes other human virtual fighter pilots flying as agre
 
 ## Course length and start/finish of course.
 
-Each flight takes place every two weeks. A normal course can have 3 or 4 students so, the duration of the course is around 8 working weeks. Normally, due to holidays the course extend for a three month period.
+Each flight takes place every two weeks. A normal course can have 3 or 4 students so, the duration of the course is around 8 working weeks.
 
 ## Course target audience.
 
-The target audience are simmers with enough experience on the chosen platform to fly the course. Allowable DCSW platforms include F16, F18, F14 and Mirage 2000C. 
+DCSW is a high fidelity air combat simulator that allows for flying combat missions with procedures and tactics very close to real life. Therefore, the course is
+ intended for students fully committed to do  the job and with good teamwork skills. This is not a weapon school so all participants, students or not, must have a deep knowledge 
+ of the chosen platform. That is, beeing what usually squadrons call Combat Ready or Mission Qualified. In this sense, acceptance priority is for squadrons that
+ present at least one student with its corresponding evaluator. The possibility of submitting applyications for support personel role (ATC/GCI) and/or red pilots will be appreciated.
 
-Additionally, a limited number of slots for support personnel are also available including GCI and ATC 
+
+ Each student will fly as Mission Commander at least in one mission, and will get a grade (Qualified/Not Qualified), at the end of the course. 
+ 
+ Allowable DCSW platforms include F16, F18, F14 and Mirage 2000C. Additionally, a limited number of slots for support personnel are also available including GCI and ATC 
 
 ## Course composition.
 
