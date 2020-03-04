@@ -21,7 +21,7 @@ Each flight takes place every two weeks. A normal course can have 3 or 4 student
 DCSW is a high fidelity air combat simulator that allows for flying combat missions with procedures and tactics very close to real life. Therefore, the course is
  intended for students fully committed to do  the job and with good teamwork skills. This is not a weapon school so all participants, students or not, must have a deep knowledge 
  of the chosen platform. That is, beeing what usually squadrons call Combat Ready or Mission Qualified. In this sense, acceptance priority is for squadrons that
- present at least one student with its corresponding evaluator. The possibility of submitting applications for support personel role (ATC/GCI) and/or red pilots will be appreciated.
+ present at least one student with its corresponding evaluator. Submit applications for support personel role (ATC/GCI) and/or red pilots will be appreciated.
 
 
  Each student will fly as Mission Commander at least in one mission, and will get a grade (Qualified/Not Qualified), at the end of the course. 
