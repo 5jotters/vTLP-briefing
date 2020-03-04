@@ -14,7 +14,7 @@ The Red force threats includes other human virtual fighter pilots flying as agre
 
 ## Course length and start/finish of course.
 
-Each flight takes place every two weeks. A normal course can have 3 or 4 students so, the duration of the course is around 8 working weeks.
+A flight takes place every two weeks. A normal course can have 3 or 4 students so, the duration of the course is around 8 working weeks.
 
 ## Course target audience.
 
