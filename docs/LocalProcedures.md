@@ -34,7 +34,7 @@ All participants will start up engines stick to each type of aircraft normal pro
 
 ● TWR:  PRESET #3 327.0 UHF/132.55 VHF for ATC control.
 
-● MAGIC:  PRESET #6 305.0 UHF for GCI control
+● MAGIC:  PRESET #6 250.0 UHF for GCI control
 
 ● ARCO (SOUTHERN TANKER KC-135MPRS):  PRESET #12 269.0 UHF
 
@@ -131,7 +131,7 @@ This is an individual procedure that everybody must accomplish. Please maintain 
 
 ● TWR:  PRESET #3 327.0 UHF/132.55 VHF for ATC control.
 
-● MAGIC:  PRESET #6 305.0 UHF for GCI control
+● MAGIC:  PRESET #6 250.0 UHF for GCI control
 
 ● ARCO (SOUTHERN TANKER KC-135MPRS):  PRESET #12 269.0 UHF
 
