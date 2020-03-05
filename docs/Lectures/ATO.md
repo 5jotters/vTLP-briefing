@@ -8,9 +8,9 @@ Each line of a tasking contains a _set_ of information. The line starts with the
 
 **Example:**
 
-<pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/2F16/2F16/AI/12H/0630Z/DEPLOC:LEAB/ARRLOC:LEAB/4G12/-/-//</pre>
+<pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/2F16/2F16/AI/-/0630Z/DEPLOC:LEAB/ARRLOC:LEAB/4G12/-/-//</pre>
 
-**Interpretation:** _Air mission data for mission number 40RJ1626, PHANTOM, COBRA and DEVIL tasked, 2 ship F16 flights, performing an Air Interdiction (AI) primary mission without secondary mission, operating withing package HOTCHILI,  no alert-state condition, ordnance 4 GBU 12, takeoff time at 1911 ZULU, departing from and recovering at Sochi-Adler international airport (ICAO code URSS)._
+**Interpretation:** _Air mission data for mission number 40RJ1626, PHANTOM and COBRA, two 2-ship F16 flights, operating withing package HOTCHILI, performing an Air Interdiction (AI) mission, no alert-state condition, take-off at 06:30 zulu, departing from and recovering at LEAB, ordnance 4 GBU 12 without secondary configuration, no IFF specified.
 
 ### Sets
 
@@ -83,21 +83,21 @@ The ATO can give other information relative to SPINS, ROE, ACO, etc. This sectio
 #### C2 BATTLE MANAGEMENT PLAN/
 
 <pre> 
-       2.	TAC C2 REMARKS:
-              A.	A NOTIONAL IFF MODE 1 AND MODE 4 WILL BE USED BY BLUE FORCES//
-              B.	“ALHAMBRA” PACKAGE USE MODE 1=11 AND A CORRECT MODE 4//
-              C.	AUTHORITY TO ENGAGE IS DELEGATED TO WEAPON PLATFORMS//
-              D.	LINK-16 NTR WILL BE THE MISSION HOST//
-              E.	AUTHENTICATION WILL BE PRIMARILY BASED ON VIRTUAL TLP AMSL 1800//
-              F.	USE BULLSEYE CALLSIGN “BULLSEYE”//
-              G.	OUTLAW DEFINED ANY CONTACT GENERATED BEYOND THE FLOT//
-              H.	LOW DEFINED AS BELOW 5000’ AMSL, SLOW DEFINED AS LESS THAN 300KGS//
+  2. TAC C2 REMARKS:
+       A. A NOTIONAL IFF MODE 1 AND MODE 4 WILL BE USED BY BLUE FORCES//
+       B. “ALHAMBRA” PACKAGE USE MODE 1=11 AND A CORRECT MODE 4//
+       C. AUTHORITY TO ENGAGE IS DELEGATED TO WEAPON PLATFORMS//
+       D. LINK-16 NTR WILL BE THE MISSION HOST//
+       E. AUTHENTICATION WILL BE PRIMARILY BASED ON VIRTUAL TLP AMSL 1800//
+       F. USE BULLSEYE CALLSIGN “BULLSEYE”//
+       G. OUTLAW DEFINED ANY CONTACT GENERATED BEYOND THE FLOT//
+       H. LOW DEFINED AS BELOW 5000’ AMSL, SLOW DEFINED AS LESS THAN 300KGS//
 </pre>
 
 #### RULES OF ENGAGEMENT (ROE)/
 
 <pre> 
-4.	ROE REMARKS:, THE FOLLOWING ROES ARE APPLICABLE:
+  4. ROE REMARKS:, THE FOLLOWING ROES ARE APPLICABLE:
        A.	007, 008, 010//
        B.	AG: 101,102,103,104//
        C.	SEAD: 200, 201, 202//
@@ -108,7 +108,8 @@ The ATO can give other information relative to SPINS, ROE, ACO, etc. This sectio
 #### RISK LEVEL/
 
 <pre> 
-       A.	VIRTUAL TLP COALITION USE RISK LEVEL MEDIUM//
+  3. RISK LEVEL:
+      A. VIRTUAL TLP COALITION USE RISK LEVEL MEDIUM//
 </pre>
 
 
