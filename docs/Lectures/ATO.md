@@ -28,10 +28,9 @@ A tasking order consists of several of the following sets:
 *   TASKUNIT: Tasked unit
 *   AMSNDAT: Air Mission Data
 *   GTGLOC: Ground Target Location
-*   PKGCMD: Package Commander
-*   ARINFO: Air to Air Refueling
+*   REFUEL: Air to Air Refueling
 *   CONTROLA: Controlling agency
-*   FACINFO: Forward air controller
+*   PKGINFO: Package information
 *   NARR: Explain preceeding  reference text
 
 Not all sets are mandatory. At minimum TASKUNIT, AMSNDAT and MSNACFT are required for a valid tasking.
@@ -66,8 +65,7 @@ Each set contains a number of _fields_ of information:
     
 *   GTGLOC/TGT folder/Time on target/Target name/Target ID/Target priority/accuracy of coordinates/ammunition type/fuze//
     
-    <pre>GTGTLOC/QW-300/TOT0800Z0830Z/-/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
-    
+    <pre>GTGTLOC/SEE TGT FOLDER QW-300/-/NET:0800Z/NLT:0830Z/-/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
 
 *   C2TASK/mission number/package identification/aircraft call sign/number and type aircraft/aircraft capability//
 
