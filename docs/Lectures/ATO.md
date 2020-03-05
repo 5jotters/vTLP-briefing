@@ -60,18 +60,11 @@ Each set contains a number of _fields_ of information:
 
     <pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/DEVIL/2F16/2F16/2F16/AI/-/4GB12/-/-//</pre>
      
-*   GTGLOC
-    1.  Designator
-    2.  Time on target
-    3.  Not earlier than
-    4.  Not later than
-    5.  Target name
-    6.  Target ID
-    7.  Target type
-    8.  DMPI description
-    9.  Desired Mean Point of Impact
-    10.  DMPI elevation
-    11.  Target priority
+*   GTGLOC/Designator/Time on target/Not earlier than/Not later than/Target name/Target ID/Target type/DMPI description/Desired Mean Point of Impact/DMPI elevation/Target priority//
+
+    <pre>GTGTLOC/P/-/NET:060900ZMAR/NLT:060905Z/RED BLUFF AFLD /ID:0992-00101DD001/-/DISPERSAL AREAS/DMPID:400948.0N1221406.0W/-/-//</pre>
+    
+    <pre>GTGTLOC/SEE TARGET FOLDER QW-300/TOT0800Z0830Z/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
     
 *   PKGCMD
     1.  Package
