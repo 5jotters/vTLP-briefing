@@ -30,7 +30,6 @@ A tasking order consists of several of the following sets:
 *   GTGLOC: Ground Target Location
 *   REFUEL: Air to Air Refueling
 *   CONTROLA: Controlling agency
-*   PKGINFO: Package information
 *   NARR: Explain preceeding  reference text
 
 Not all sets are mandatory. At minimum TASKUNIT, AMSNDAT and MSNACFT are required for a valid tasking.
