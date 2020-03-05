@@ -1,4 +1,4 @@
-## ATO Manual
+## How to read the ATO
 
 The ATO is the approved method used to task and disseminate to components, subordinate units, and command and control agencies projected sorties/capabilities/forces to targets and specific missions.  The ATO describes essential task information for the COMAO, such as objectives, participating forces, target, time frame, Rules of Engagement, deconfliction parameters, etc., as well as general instructions. The ATO gives a summary of active flights in the upcoming COMAO event for a 24 hour period. This document describes how to read ("frag") the contents of an ATO.
 
@@ -76,3 +76,98 @@ Each set contains a number of _fields_ of information:
 
     <pre>NARR/SEAD COMMANDER: PHANTOM//</pre>
 
+## ADDITIONAL INFORMATION 
+
+The ATO can give other information relative to SPINS, ROE, ACO, etc. This section can be as long as needed.
+
+#### C2 BATTLE MANAGEMENT PLAN/
+
+<pre> 
+       2.	TAC C2 REMARKS:
+              A.	A NOTIONAL IFF MODE 1 AND MODE 4 WILL BE USED BY BLUE FORCES//
+              B.	“ALHAMBRA” PACKAGE USE MODE 1=11 AND A CORRECT MODE 4//
+              C.	AUTHORITY TO ENGAGE IS DELEGATED TO WEAPON PLATFORMS//
+              D.	LINK-16 NTR WILL BE THE MISSION HOST//
+              E.	AUTHENTICATION WILL BE PRIMARILY BASED ON VIRTUAL TLP AMSL 1800//
+              F.	USE BULLSEYE CALLSIGN “BULLSEYE”//
+              G.	OUTLAW DEFINED ANY CONTACT GENERATED BEYOND THE FLOT//
+              H.	LOW DEFINED AS BELOW 5000’ AMSL, SLOW DEFINED AS LESS THAN 300KGS//
+</pre>
+
+#### RULES OF ENGAGEMENT (ROE)/
+
+<pre> 
+4.	ROE REMARKS:, THE FOLLOWING ROES ARE APPLICABLE:
+       A.	007, 008, 010//
+       B.	AG: 101,102,103,104//
+       C.	SEAD: 200, 201, 202//
+       D.	ECM: 130//
+       E.	SBAD: WEAPONS FREE INSIDE BLUE TERRITORY//
+</pre>
+
+#### RISK LEVEL/
+
+<pre> 
+       A.	VIRTUAL TLP COALITION USE RISK LEVEL MEDIUM//
+</pre>
+
+
+#### COMMUNICATIONS PLAN/
+
+<pre> 
+
+</pre>
+
+
+#### ELECTRONIC WARFARE PLAN/
+
+<pre> 
+
+</pre>
+
+
+#### COMPOSITE AIR OPERATIONS (COMAO) PLAN/
+
+<pre> 
+
+</pre>
+
+
+#### TANKER PROCEDURES/
+
+<pre> 
+
+</pre>
+
+
+#### ADDITIONAL SPECIAL INSTRUCTIONS/
+
+<pre> 
+       3.	RISK LEVEL:
+              A.	VIRTUAL TLP COALITION USE RISK LEVEL MEDIUM/
+
+</pre>
+
+
+#### AIRSPACE CONTROL INFORMATION/
+<pre> 
+1.	AIRSPACE CONTROL INFORMATION:
+       A.	DEPARTURE AND RECOVERY ACCORDING TO LOCAL PROCEDURES//
+       B.	HOLDING AREA ESTABLISH FROM FL100 TO FL380 FOR PACKAGE “ALHAMBRA”
+              i.	CHALIS WILL MAINTAIN ASSIGNED ORBIT IAW COORDINATION BRIEF AT FL300//
+              ii.	AIRCRAFT DEPARTING ALBACETE WILL NOT CLIMB ABOVE FL150 BEFORE WPT 2 IF THEY ARE GOING TO REFUEL WITH THE NORTHERN TANKER//
+              iii.	AIRCRAFT DEPARTING ALBACETE WILL CLIMB TO FL210 MAXIMUM IF THEY ARE GOING TO REFUEL WITH THE SOUTHERN TANKER//
+       C.	DESIGNATED SWEEP/ESCORT/SEAD/AI FORCES OF PACKAGE “ALHAMBRA” USE SAME ROUTE FOR THE PUSH AT THE ASSIGNED ALTITUDE//
+       D.	DESIGNATED SWEEP/ESCORT/SEAD/AI FORCES WILL DEPARTURE VMC//
+</pre>
+#### RMKS/
+
+<pre> 
+       5.	TLP REMARKS:
+              A.	ALL TIMES GIVEN ARE MANDATORY//
+       /
+       6.	GENERAL REMARKS:
+              A.	NO TAKE OFFS BEFORE 0630Z//
+              B.	IT IS NOT EXIST RECOVERY TIMES. FORMATION SHOULD ADJUST 2NM TRAIL BETWEEN THEM AS MINIMUM.
+              C.	ALL CREWS ARE TO CARRY MISSION MAPS AND ALL DOCUMENTATION PROVIDED BY MC//
+</pre>
