@@ -73,5 +73,6 @@ Each set contains a number of _fields_ of information:
     <pre>CONTROLA/BOT/COBRA/235.6/-/E5/-//</pre>
      
 *   NARR/free text to explain preceding reference set//
-   <pre>NARR/SEAD COMMANDER: PHANTOM//</pre>
+
+    <pre>NARR/SEAD COMMANDER: PHANTOM//</pre>
 
