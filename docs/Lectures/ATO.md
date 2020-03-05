@@ -6,7 +6,7 @@
 
 ## ATO Manual
 
-The ATO gives a summary of active flights in the upcoming COMAO event for a 24 hour period. This document describes how to read ("frag") the contents of an ATO.
+The ATO describes essential task information for the COMAO, such as objectives, participating forces, target, time frame, Rules of Engagement and deconfliction parameters. The ATO gives a summary of active flights in the upcoming COMAO event for a 24 hour period. This document describes how to read ("frag") the contents of an ATO.
 
 ### Format
 
