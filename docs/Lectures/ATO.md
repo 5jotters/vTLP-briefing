@@ -1,9 +1,3 @@
-<div id="column">
-
-<div id="content">
-
-<div id="pageContent">
-
 ## ATO Manual
 
 The ATO is the approved method used to task and disseminate to components, subordinate units, and command and control agencies projected sorties/capabilities/forces to targets and specific missions.  The ATO describes essential task information for the COMAO, such as objectives, participating forces, target, time frame, Rules of Engagement, deconfliction parameters, etc., as well as general instructions. The ATO gives a summary of active flights in the upcoming COMAO event for a 24 hour period. This document describes how to read ("frag") the contents of an ATO.
@@ -81,8 +75,3 @@ Each set contains a number of _fields_ of information:
 *   NARR/free text to explain preceding reference set//
    <pre>NARR/SEAD COMMANDER: PHANTOM//</pre>
 
-</div>
-
-</div>
-
-</div>
