@@ -64,15 +64,10 @@ Each set contains a number of _fields_ of information:
 
     <pre>GTGTLOC/P/-/NET:060900ZMAR/NLT:060905Z/RED BLUFF /ID:0992-001/-/DISPERSAL AREAS/DMPID:400948.0N1221406.0W/-/-//</pre>
     
-*   GTGLOC/tgt folder/Time on target/Target name/Target ID/Target priority/accuracy of coordinates/ammunition type/fuze//
+*   GTGLOC/TGT folder/Time on target/Target name/Target ID/Target priority/accuracy of coordinates/ammunition type/fuze//
     
-    <pre>GTGTLOC/SEE TARGET FOLDER QW-300/TOT0800Z0830Z/-/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
+    <pre>GTGTLOC/QW-300/TOT0800Z0830Z/-/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
     
-*   PKGCMD
-    1.  Package
-    2.  Tasked unit
-    3.  Msn number
-    4.  CALLSIGN
 
 *   C2TASK/mission number/package identification/aircraft call sign/number and type aircraft/aircraft capability//
 
@@ -83,11 +78,11 @@ Each set contains a number of _fields_ of information:
     <pre>REFUEL/CAMEL/C3/FL200/0800Z1030Z/269.0/2Y//</pre>
     
 *   CONTROLA/type of control/call sign/primary frequency/secondary frequency/report-in point/comments//
-    
-*   FAC/call sign/primary (frequency) or (frequency designator)/secondary (frequency) or (frequency designator)/report-in point/support unit identity/control comments//
 
+    <pre>CONTROLA/BOT/COBRA/235.6/-/E5/-//</pre>
+     
 *   NARR/free text to explain preceding reference set//
-   
+   <pre>NARR/SEAD COMMANDER: PHANTOM//</pre>
 
 </div>
 
