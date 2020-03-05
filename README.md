@@ -45,6 +45,7 @@ The optimum composition of a COMAO course is as follows:
 - COMAO Concept and Doctrine
 - Mission commander duties
 - COMAO Mission Planning (The four Ts)
+- [Hot to read the ATO](./docs/Lectures/ATO.md)
 - Precision Guided Munitions Attack Planning
 - Collateral Damage
 - Close Air Support
