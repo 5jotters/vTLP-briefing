@@ -23,15 +23,15 @@ Each line of a tasking contains a _set_ of information. The line starts with the
 A tasking order consists of several of the following sets:
 
 *   OPER: Operation
+*   MSGID: Message identification
+*   PERIOD: ATO from-to time
 *   TASKUNIT: Tasked unit
 *   AMSNDAT: Air Mission Data
-*   MSNACFT: Mission Aircraft
-*   AMSNLOC: Air Mission Location
 *   GTGLOC: Ground Target Location
 *   PKGCMD: Package Commander
 *   ARINFO: Air to Air Refueling
 *   CONTROLA: Controlling agency
-*   TAC: Terminal Attack Controller
+*   FACINFO: Forward air controller
 *   NARR: Explain preceeding  reference text
 
 Not all sets are mandatory. At minimum TASKUNIT, AMSNDAT and MSNACFT are required for a valid tasking.
@@ -39,41 +39,27 @@ Not all sets are mandatory. At minimum TASKUNIT, AMSNDAT and MSNACFT are require
 ### Fields
 
 Each set contains a number of _fields_ of information:
-*   OPER
-    1. Operation name
-    2. Plan originator and number
-    
-    <pre> OPER/VIRTUAL TLP/COURSE 19-1//</pre>
 
-*   TASKUNIT
-    1.  Tasked unit designator
-    2.  ICAO location
-    
-    <pre> TASKUNIT/VIRTUAL TLP OPS/ICAO: LEAB//</pre>
+*   OPER/operation name/plan originator and number//
+       
+    <pre>OPER/VIRTUAL TLP/COURSE 19-1//</pre>
 
-*   AMSNDAT
-    1.  Msn Number
-    2.  Primary Mission
-    3.  Secondary Mission
-    4.  Package
-    5.  Commander ID
-    6.  Alert State
-    7.  Takeoff Time (in-game time)
-    8.  Departure Airfield/Location
-    9.  Recovery Airfield/Location
-*   MSNACFT
-    1.  Number of Aircraft in Flight
-    2.  Type of Aircraft
-    3.  Callsign and Flight Number
-    4.  Primary Config
-    5.  Secondary Config
-    6.  Primary Frequency
-    7.  Secondary Frequency//
-*   AMSNLOC
-    1.  Time From
-    2.  Time to
-    3.  Position
-    4.  Altitude
+*   MSGID/ATO/originator/message serial number/month/qualifier/qualifier serial number//
+
+    <pre>MSGID/ATO/VIRTUALTLPSTAFF/-/NOV/TLPv CONFIDENTIAL/-//</pre>
+
+*   PERIOD/FROM: time from/TO: time to//
+
+    <pre>PERIOD/FROM 180000ZNOV18/TO182359ZNOV18//</pre> 
+
+*   TASKUNIT/tasked unit designator/ICAO location/comments//
+    
+    <pre>TASKUNIT/VIRTUAL TLP OPS/ICAO: LEAB/-//</pre>
+
+*   AMSNDAT/mission number/package identification/aircraft call sign/number and type aircraft/mission type/alert status/primary configuration code/secondary configuration code/iff-sif code and mode//
+
+    <pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/DEVIL/2F16/2F16/2F16/AI/-/4GB12/-/-//</pre>
+     
 *   GTGLOC
     1.  Designator
     2.  Time on target
@@ -86,31 +72,30 @@ Each set contains a number of _fields_ of information:
     9.  Desired Mean Point of Impact
     10.  DMPI elevation
     11.  Target priority
+    
 *   PKGCMD
     1.  Package
     2.  Tasked unit
     3.  Msn number
     4.  CALLSIGN
-*   ARINFO
+    
+*   REFUEL
     1.  CALLSIGN
     2.  Position
     3.  Altitude
     4.  Frequency
     5.  TACAN
+    
 *   CONTROLA
     1.  Type
     2.  CALLSIGN
     3.  Report in point
     4.  Primary Frequency
     5.  Secondary Frequency
-*   TAC
-    1.  Type
-    2.  CALLSIGN
-    3.  Position
-    4.  Primary Frequency
-    5.  Secondary Frequency
-*   AMPN
-    1.  Amplification
+    
+*   FACINFO/call sign/primary (frequency) or (frequency designator)/secondary (frequency) or (frequency designator)/report-in point/support unit identity/control comments//
+*   NARR/free text to explain preceding reference set//
+   
 
 </div>
 
