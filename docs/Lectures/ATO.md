@@ -10,7 +10,7 @@ The ATO is the approved method used to task and disseminate to components, subor
 
 ### Format
 
-Each line of a tasking contains a _set_ of information. The line starts with the name of the current set and is followed by a number of _fields_. Each field contents are separated by a forward slash, /. Field values are plain-text, human-readable information, or a - to signify an empty value. The line is terminated by two consecutive forward slashes, //.
+Each line of a tasking contains a _set_ of information. The line starts with the name of the current set and is followed by a number of _fields_. Each field contents are separated by a forward slash, /. Field values are either information in plain-text, or a - to signify an empty value. The line is terminated by two consecutive forward slashes, //.
 
 **Example:**
 
@@ -58,7 +58,7 @@ Each set contains a number of _fields_ of information:
 
 *   AMSNDAT/mission number/package identification/aircraft call sign/number and type aircraft/mission type/alert status/primary configuration code/secondary configuration code/iff-sif code and mode//
 
-    <pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/DEVIL/2F16/2F16/2F16/AI/-/4GB12/-/-//</pre>
+    <pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/DEVIL/2F16/2F16/2F16/AI/-/4G12/-/-//</pre>
      
 *   GTGLOC/Designator/Time on target/Not earlier than/Not later than/Target name/Target ID/Target type/DMPI description/Desired Mean Point of Impact/DMPI elevation/Target priority//
 
@@ -71,22 +71,19 @@ Each set contains a number of _fields_ of information:
     2.  Tasked unit
     3.  Msn number
     4.  CALLSIGN
+
+*   C2TASK/mission number/package identification/aircraft call sign/number and type aircraft/aircraft capability//
+
+    <pre>C2TASK/-/PACKAGE “ALHAMBRA”/MAGIC/1E3/C2//</pre>
+
+*   REFUEL/callsign/tanker mission number/aar control point/altitude/aar control time/frequency/tacan// 
     
-*   REFUEL
-    1.  CALLSIGN
-    2.  Position
-    3.  Altitude
-    4.  Frequency
-    5.  TACAN
+    <pre>REFUEL/CAMEL/C3/FL200/0800Z1030Z/269.0/2Y//</pre>
     
-*   CONTROLA
-    1.  Type
-    2.  CALLSIGN
-    3.  Report in point
-    4.  Primary Frequency
-    5.  Secondary Frequency
+*   CONTROLA/type of control/call sign/primary frequency/secondary frequency/report-in point/comments//
     
-*   FACINFO/call sign/primary (frequency) or (frequency designator)/secondary (frequency) or (frequency designator)/report-in point/support unit identity/control comments//
+*   FAC/call sign/primary (frequency) or (frequency designator)/secondary (frequency) or (frequency designator)/report-in point/support unit identity/control comments//
+
 *   NARR/free text to explain preceding reference set//
    
 
