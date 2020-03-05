@@ -8,9 +8,9 @@ Each line of a tasking contains a _set_ of information. The line starts with the
 
 **Example:**
 
-<pre>AMSNDAT/AI2362/AI/CAS/-/28/-/1911/DEPLOC:URSS/ARRLOC:URSS//</pre>
+<pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/2F16/2F16/AI/12H/0630Z/DEPLOC:LEAB/ARRLOC:LEAB/4G12/-/-//</pre>
 
-**Interpretation:** _Air mission data for mission number AI2362 performing an Air Interdiction (AI) primary mission followed by a Close Air Support (CAS) secondary mission, operating without a package, with pilot ID 28 as a mission commander, no alert-state condition, takeoff time at 1911 ZULU, departing from and recovering at Sochi-Adler international airport (ICAO code URSS)._
+**Interpretation:** _Air mission data for mission number 40RJ1626, PHANTOM, COBRA and DEVIL tasked, 2 ship F16 flights, performing an Air Interdiction (AI) primary mission without secondary mission, operating withing package HOTCHILI,  no alert-state condition, ordnance 4 GBU 12, takeoff time at 1911 ZULU, departing from and recovering at Sochi-Adler international airport (ICAO code URSS)._
 
 ### Sets
 
@@ -48,10 +48,10 @@ Each set contains a number of _fields_ of information:
     
     <pre>TASKUNIT/VIRTUAL TLP OPS/ICAO: LEAB/-//</pre>
 
-*   AMSNDAT/mission number/package identification/aircraft call sign/number and type aircraft/mission type/alert status/primary configuration code/secondary configuration code/iff-sif code and mode//
+*   AMSNDAT/mission number/package identification/aircraft call sign/number and type aircraft/mission type/alert status/take off time/Departure Location/Arrival Location/primary configuration code/secondary configuration code/iff-sif code and mode//
 
-    <pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/DEVIL/2F16/2F16/2F16/AI/-/4G12/-/-//</pre>
-     
+    <pre>AMSNDAT/40RJ1626/PACKAGE “HOTCHILI”/PHANTOM/COBRA/2F16/2F16/AI/12H/0630Z/DEPLOC:LEAB/ARRLOC:LEAB/4G12/-/-//</pre>
+
 *   GTGLOC/Designator/Time on target/Not earlier than/Not later than/Target name/Target ID/Target type/DMPI description/Desired Mean Point of Impact/DMPI elevation/Target priority//
 
     <pre>GTGTLOC/P/-/NET:060900ZMAR/NLT:060905Z/RED BLUFF /ID:0992-001/-/DISPERSAL AREAS/DMPID:400948.0N1221406.0W/-/-//</pre>
