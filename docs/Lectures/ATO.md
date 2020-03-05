@@ -64,7 +64,9 @@ Each set contains a number of _fields_ of information:
 
     <pre>GTGTLOC/P/-/NET:060900ZMAR/NLT:060905Z/RED BLUFF /ID:0992-001/-/DISPERSAL AREAS/DMPID:400948.0N1221406.0W/-/-//</pre>
     
-    <pre>GTGTLOC/SEE TARGET FOLDER QW-300/TOT0800Z0830Z/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
+*   GTGLOC/tgt folder/Time on target/Target name/Target ID/Target priority/accuracy of coordinates/ammunition type/fuze//
+    
+    <pre>GTGTLOC/SEE TARGET FOLDER QW-300/TOT0800Z0830Z/-/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
     
 *   PKGCMD
     1.  Package
