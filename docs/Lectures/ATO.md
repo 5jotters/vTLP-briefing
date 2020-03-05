@@ -26,7 +26,7 @@ A tasking order consists of several of the following sets:
 *   CONTROLA: Controlling agency
 *   NARR: Explain preceeding  reference text
 
-Not all sets are mandatory. At minimum TASKUNIT, AMSNDAT and MSNACFT are required for a valid tasking.
+Not all sets are mandatory. At minimum TASKUNIT and AMSNDAT are required for a valid tasking.
 
 ### Fields
 
