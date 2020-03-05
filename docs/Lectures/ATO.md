@@ -106,22 +106,22 @@ The ATO can give other information relative to SPINS, ROE, ACO, etc. This sectio
 <pre> 
 PKGINFO “ALHAMBRA”/-/-//
 /
-UNIT	       MISSION	       C/S	       Nº TYPE	       REMARKS
+UNIT	       	MISSION	      	 C/S	       Nº TYPE	       	REMARKS
 
-ALBACETE	40RJ1901	SPARTAN	       2 x EF2k	SWEEP/ESCORT
-	       40RJ1902	LOBO	              2 x F16	SWEEP/ESCORT
-	       40RJ1903	COBRA	              2 x F16	SWEEP/ESCORT
-	       40RJ1904	PHANTOM	       2 x F16	SEAD
-	       40RJ1905	FALCON	              2 x F16	SEAD
-	       40RJ1906	ROCKET	              2 x F16	PP CAS
-	       40RJ1907	DEVIL	              2 x F16	PP CAS
-	       40RJ1908	BRONCO	              2 x F16	PP CAS
+ALBACETE	40RJ1901	SPARTAN	       2 x EF2k		SWEEP/ESCORT
+	       	40RJ1902	LOBO	       2 x F16		SWEEP/ESCORT
+	       	40RJ1903	COBRA	       2 x F16		SWEEP/ESCORT
+	       	40RJ1904	PHANTOM	       2 x F16		SEAD
+	       	40RJ1905	FALCON	       2 x F16		SEAD
+	       	40RJ1906	ROCKET	       2 x F16		PP CAS
+	       	40RJ1907	DEVIL	       2 x F16		PP CAS
+	       	40RJ1908	BRONCO	       2 x F16		PP CAS
 	       			
 				
-	       40RJ1911	CHALIS	              1 x E-3	AWACS
-	       40RJ1912	CAMEL	              1 x KC-10	AAR
-	       40RJ1913	CANTEEN	       1 x KC-135	AAR
-	       40RJ1914	CHARGER	       1 x KC-10	AAR
+	       	40RJ1911	CHALIS	       1 x E-3		AWACS
+	       	40RJ1912	CAMEL	       1 x KC-10	AAR
+	       	40RJ1913	CANTEEN	       1 x KC-135	AAR
+	       	40RJ1914	CHARGER	       1 x KC-10	AAR
 /
 PACKAGE TASK:
        A.	PP CAS: SCUD MISSILES SITES//
