@@ -6,13 +6,9 @@
 
 ## ATO Manual
 
-From Joint Publication (JP) 1-02, the ATO is the approved method used to task and disseminate to components, subordinate units, and command and control agencies projected sorties/capabilities/forces to targets and specific missions.  The ATO describes essential task information for the COMAO, such as objectives, participating forces, target, time frame, Rules of Engagement, deconfliction parameters, etc., as well as general instructions. The ATO gives a summary of active flights in the upcoming COMAO event for a 24 hour period. This document describes how to read ("frag") the contents of an ATO.
+The ATO is the approved method used to task and disseminate to components, subordinate units, and command and control agencies projected sorties/capabilities/forces to targets and specific missions.  The ATO describes essential task information for the COMAO, such as objectives, participating forces, target, time frame, Rules of Engagement, deconfliction parameters, etc., as well as general instructions. The ATO gives a summary of active flights in the upcoming COMAO event for a 24 hour period. This document describes how to read ("frag") the contents of an ATO.
 
 ### Format
-
-The ATO is distributed as a plain text transmission. The format is quite terse to facilitate easy transmission over battlefield networks. The relevant contents are interpreted manually by squadron commanders and flight leads in a process called "task fragging". (Hence the brevity "as fragged" to describe something proceeding according to a predefined plan.)
-
-Each flight performing air activities are issued a separate tasking with their relevant information like flight composition, directives for communication, target information etc.
 
 Each line of a tasking contains a _set_ of information. The line starts with the name of the current set and is followed by a number of _fields_. Each field contents are separated by a forward slash, /. Field values are plain-text, human-readable information, or a - to signify an empty value. The line is terminated by two consecutive forward slashes, //.
 
@@ -26,7 +22,7 @@ Each line of a tasking contains a _set_ of information. The line starts with the
 
 A tasking order consists of several of the following sets:
 
-*   VTASK: Virtual Task
+*   OPER: Operation
 *   TASKUNIT: Tasked unit
 *   AMSNDAT: Air Mission Data
 *   MSNACFT: Mission Aircraft
@@ -36,21 +32,25 @@ A tasking order consists of several of the following sets:
 *   ARINFO: Air to Air Refueling
 *   CONTROLA: Controlling agency
 *   TAC: Terminal Attack Controller
-*   AMPN: Amplification
+*   NARR: Explain preceeding  reference text
 
-Not all sets are mandatory. At minimum VTASK, TASKUNIT, AMSNDAT and MSNACFT are required for a valid tasking.
+Not all sets are mandatory. At minimum TASKUNIT, AMSNDAT and MSNACFT are required for a valid tasking.
 
 ### Fields
 
 Each set contains a number of _fields_ of information:
+*   OPER
+    1. Operation name
+    2. Plan originator and number
+    
+    <pre> OPER/VIRTUAL TLP/COURSE 19-1//</pre>
 
-*   VTASK
-    1.  Tasked Unit ID
-    2.  Mission number
-    3.  Briefing time (Real-world zulu time, format is DDHHMMZMMMYYYY)
 *   TASKUNIT
-    1.  Tasked unit
-    2.  Unit location
+    1.  Tasked unit designator
+    2.  ICAO location
+    
+    <pre> TASKUNIT/VIRTUAL TLP OPS/ICAO: LEAB//</pre>
+
 *   AMSNDAT
     1.  Msn Number
     2.  Primary Mission
