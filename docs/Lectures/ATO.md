@@ -62,7 +62,7 @@ Each set contains a number of _fields_ of information:
      
 *   GTGLOC/Designator/Time on target/Not earlier than/Not later than/Target name/Target ID/Target type/DMPI description/Desired Mean Point of Impact/DMPI elevation/Target priority//
 
-    <pre>GTGTLOC/P/-/NET:060900ZMAR/NLT:060905Z/RED BLUFF AFLD /ID:0992-00101DD001/-/DISPERSAL AREAS/DMPID:400948.0N1221406.0W/-/-//</pre>
+    <pre>GTGTLOC/P/-/NET:060900ZMAR/NLT:060905Z/RED BLUFF /ID:0992-001/-/DISPERSAL AREAS/DMPID:400948.0N1221406.0W/-/-//</pre>
     
     <pre>GTGTLOC/SEE TARGET FOLDER QW-300/TOT0800Z0830Z/DPI 1-13/PRIO GRADE 1/CDE1LOW/PGM/INSTANT//</pre>
     
