@@ -60,7 +60,7 @@ All formations will hold the active arming zone waiting their respective take of
 
 Once formations are cleared for departure they will enter and take off following VMC or IMC procedures depending on the Airfield weather conditions:
 
-● VMC: NORTH FLEX / DREAM 6 departure in use. Take Off will be 1+1 at 10" spacing with visual rejoin when airborne. Once above 10200 FT / 20NM R249 LSV resume own navigation to the first route waypoint. This one will be exactly the same for all players in the package.
+● VMC: NORTH FLEX / DREAM 6 departure in use. Take Off will be 1+1 at 10" spacing with visual rejoin when airborne. Once above 10200 FT / 20NM R249 LSV proceed to B2: JUNNO. This one will be exactly the same for all players in the package.
  ![](../Images/FlexTurnout.jpg)
  
  ![](../Images/FlexTurnoutRWY21.jpg)
