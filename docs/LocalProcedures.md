@@ -61,6 +61,7 @@ All formations will hold the active arming zone waiting their respective take of
 Once formations are cleared for departure they will enter and take off following VMC or IMC procedures depending on the Airfield weather conditions:
 
 ● VMC: NORTH FLEX / DREAM 6 departure in use. Take Off will be 1+1 at 10" spacing with visual rejoin when airborne. Once above 10200 FT / 20NM R249 LSV proceed to C3: AAR. This one will be exactly the same for all players in the package.
+
  ![](../Images/FlexTurnout.jpg)
  
  ![](../Images/FlexTurnoutRWY21.jpg)
@@ -74,7 +75,7 @@ After Take Off, ATC controller will clear the formations to change to either the
 
 ### 4.  **ROUTE**
 
-After departure all formations will proceed to  waypoints A1: HAREM,  B2: JUNNO and reaching C3:AAR at FL200 or below. These points are common WPTs for all participants. Waypoint C3 will be also ARCP for formations refueling in southern tanker (ARCO KC-135MPRS AAR SOUTH) FL220, and northern tanker (TEXACO KC-135 NORTH) FL220. 
+After departure all formations will proceed to  waypoints A1: HEREM,  B2: JUNNO and reaching C3:AAR at FL200 or below. These points are common WPTs for all participants. Waypoint C3 will be also ARCP for formations refueling in southern tanker (ARCO KC-135MPRS AAR SOUTH) FL220, and northern tanker (TEXACO KC-135 NORTH) FL220. 
 Once with visual contact with tanker, receivers with climb for rejoining and proceed echelon left with tanker.
 
 After refueling, formations will proceed to the assigned Holding/Push WPT, normally WPT 4 (D4) HOLD and WPT 5 (E5) PUSH, at the assigned altitudes. On the way to the holding/push WPTs all formations with contact GCI controller for check-in and tactical flight.
